@@ -1,7 +1,6 @@
 #!/bin/bash
 
 if [ -f "~/.gitconfig" ]; then
-	echo "Good"
-	exit 0
+	echo "Success"
 fi
 echo "I am done executing"
